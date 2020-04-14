@@ -1,0 +1,5 @@
+VNet_Peering_Resource_Group,VNet_Peering_Location,VNet_Peering_Vnet,VNet_Peering_Name,VNet_Peering_AllowGatewayTransit,VNet_Peering_Use_Remote_Gateways,VNet_Peering_Allow_forwarded_traffic,vnet_address,subnet_address
+hub-we-rg,West Europe,hub-we-vnet,hub-we-to-mgmt-eus-peer,TRUE,FALSE,FALSE,10.0.0.1/15,10.0.0.1/14
+hub-we-rg,West Europe,hub-we-vnet,hub-we-to-apps-eus-peer,TRUE,FALSE,FALSE,10.0.0.1/15,10.0.0.1/14
+mgmt-we-rg,West Europe,mgmt-we-vnet,mgmt-eus-to-hub-we-peer,FALSE,TRUE,TRUE,10.0.0.1/15,10.0.0.1/14
+apps-we-rg,West Europe,apps-we-vnet,apps-eus-to-hub-we-peer,FALSE,TRUE,TRUE,10.0.0.1/15,10.0.0.1/13
